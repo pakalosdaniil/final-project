@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "title": "Stubble",
+      "description": "Star Wars Odyssey",
+      "price": 30,
+      "image": "https://i.pinimg.com/474x/fa/59/7e/fa597e1a23cd566d1d9a313a17a8cb92.jpg",
+      "id": 2
+    },
+    {
+      "title": "Bandholz",
+      "description": "Star Wars Odyssey",
+      "price": 60,
+      "image": "https://qtxasset.com/quartz/qcloud2/media/image/files/americansalon/articleCT_images_gallery/tumblr_mwkxwxF1my1rp1a6ao1_500.jpg?VersionId=DKSbC5ZMiOUBckovE1K0MrZU.RfDP4f_",
+      "id": 2
+    },
+    {
+      "title": "Full Pack",
+      "description": "Star Wars Odyssey",
+      "price": 100,
+      "image": "https://www.toptrendsguide.com/wp-content/uploads/2017/07/Full-Beard-and-Long-Hair.jpg",
+      "id": 2
+    }
+  ]
+}

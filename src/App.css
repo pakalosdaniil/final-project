@@ -1,0 +1,444 @@
+/* Website Template by freewebsitetemplates.com */
+@font-face {
+  font-family: "poller_oneregular";
+  src: url("../public/fonts/pollerone/pollerone-webfont.eot");
+  src: url("../public/fonts/pollerone/pollerone-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/pollerone/pollerone-webfont.woff") format("woff"),
+    url("../public/fonts/pollerone/pollerone-webfont.ttf") format("truetype"),
+    url("../public/fonts/pollerone/pollerone-webfont.svg#poller_oneregular")
+      format("svg");
+}
+@font-face {
+  font-family: "leckerli_oneregular";
+  src: url("../public/fonts/leckerlione/leckerlione-regular-webfont.eot");
+  src: url("../public/fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/leckerlione/leckerlione-regular-webfont.woff")
+      format("woff"),
+    url("../public/fonts/leckerlione/leckerlione-regular-webfont.ttf")
+      format("truetype"),
+    url("../public/fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular")
+      format("svg");
+}
+
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: #252525;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+p a {
+  color: #252525;
+  text-decoration: underline;
+}
+p a:hover {
+  color: #898989;
+}
+
+#body {
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: center;
+}
+#body h1 {
+  color: #fff;
+  display: inline;
+  font-family: poller_oneregular;
+  font-size: 35px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+#body h1 span {
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+  margin-bottom: 7px;
+}
+
+.service {
+  border: 2px solid #1a1a1a;
+  display: flex;
+  margin: 0 0 13px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+.service:hover {
+  opacity: 1;
+}
+
+.service__type {
+  float: left;
+  margin: 0;
+  padding: 63px 0 20px;
+  width: 100%;
+}
+
+.service__type h3 {
+  color: #252525;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.service__type p {
+  padding: 30px 30px 18px;
+}
+
+.service-image img {
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.bookNow {
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.bookNow:hover {
+  color: #252525;
+  background: #fff;
+  border: 2px solid #252525;
+}
+#featured {
+  margin: 0 0 13px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+#featured img {
+  border: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#featured div {
+  left: 50%;
+  margin-left: -480px;
+  margin-top: -171px;
+  padding: 0 0 0 470px;
+  position: absolute;
+  top: 50%;
+  text-align: left;
+  width: 490px;
+}
+#featured div h2 {
+  background: rgb(226, 225, 225);
+  color: #000;
+  display: inline-block;
+  font-family: poller_oneregular;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 18px;
+  padding: 23px 27px 20px;
+  text-transform: uppercase;
+}
+#featured div span {
+  background: #252525;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  margin: 7px 0;
+  padding: 12px 27px;
+}
+#featured div a {
+  background: #0ba39c;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0 0;
+  padding: 26px 27px 22px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#featured div a:hover {
+  background: #1fc3bc;
+}
+
+#input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#send {
+  background: #252525;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 10px 14px;
+  width: auto;
+}
+
+#send:hover {
+  background: #fff;
+  color: #252525;
+  cursor: pointer;
+  border: 1px solid #252525;
+}
+
+#add-button {
+  background: #252525;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 10px 14px;
+  width: auto;
+}
+
+#add-button:hover {
+  background: #fff;
+  color: #252525;
+  cursor: pointer;
+  border: 1px solid #252525;
+}
+
+#footer {
+  background: #252525;
+  margin: 0;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tag {
+  display: inline-block;
+  list-style: none;
+  padding: 25px 19px 0px;
+  color: #252525;
+  font-family: "Arial Black", Gadget, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media (max-width: 980px) {
+  #featured div {
+    width: 390px;
+    top: 55%;
+  }
+  #featured div h2 {
+    font-size: 16px;
+    margin: 5px 0 10px;
+  }
+  #featured div span {
+    font-size: 16px;
+  }
+  #featured div a {
+    padding: 15px;
+  }
+  .homeBox img {
+    width: 250px;
+    height: 200px;
+  }
+}
+@media (max-width: 880px) {
+  .homeBox img {
+    width: 220px;
+    height: 170px;
+  }
+  #featured div {
+    width: 310px;
+    top: 60%;
+  }
+  #featured div h2 {
+    font-size: 12px;
+    margin: 5px 0 10px;
+    padding: 10px 5px 10px 5px;
+  }
+  #featured div span {
+    font-size: 14px;
+    padding: 10px 5px 10px 5px;
+    margin: 0 0 5px;
+  }
+  #featured div a {
+    padding: 10px;
+  }
+  #add-button {
+    background: #252525;
+    color: #fff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 10px 14px;
+    width: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  #add-button {
+    background: #252525;
+    color: #fff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 5px 7px;
+    width: auto;
+  }
+
+  #featured div {
+    width: 310px;
+    top: 65%;
+  }
+
+  .service-image img {
+    display: none;
+    height: 100%;
+    border-right: 1px solid black;
+  }
+  .about-image img {
+    width: 100%;
+  }
+  .homeBox img {
+    width: 200px;
+    height: 150px;
+  }
+  #footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 670px) {
+  .homeBox img {
+    width: 180px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 640px) {
+  #featured div h2 {
+    margin: 0 0 5px;
+  }
+  #featured div {
+    top: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  #featured div {
+    width: 270px;
+  }
+  .label span {
+    font-size: 30px;
+  }
+  .homeBox img {
+    width: 160px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 580px) {
+  #featured div {
+    top: 85%;
+  }
+  #featured div h2 {
+    font-size: 12px;
+    margin: 5px 0 10px;
+  }
+  #featured div span {
+    font-size: 10px;
+  }
+  #featured div a {
+    margin: 0;
+    padding: 7px;
+  }
+}
+
+@media (max-width: 520px) {
+  #featured div {
+    width: 250px;
+  }
+  #add-button {
+    background: #252525;
+    color: #fff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    width: auto;
+  }
+  .label span {
+    font-size: 25px;
+  }
+  .homeBox img {
+    width: 140px;
+    height: 110px;
+  }
+  #footer p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 490px) {
+  #featured div {
+    width: 240px;
+    left: 45%;
+    top: 90%;
+  }
+  #featured div h2 {
+    font-size: 10px;
+    margin: 5px 0 5px;
+  }
+  #featured div span {
+    font-size: 12px;
+  }
+  #featured div a {
+    font-size: 12px;
+    margin: 0;
+    padding: 7px;
+  }
+}
+@media (max-width: 450px) {
+  #featured div {
+    top: 82%;
+  }
+  #featured div {
+    width: 150px;
+  }
+  .label span {
+    font-size: 18px;
+  }
+  .homeBox img {
+    display: none;
+  }
+  .homeBox p {
+    display: none;
+  }
+  #footer p {
+    font-size: 10px;
+  }
+}

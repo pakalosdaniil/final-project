@@ -11,15 +11,16 @@ const About = () => {
         <Box className="about-image">
           <img src="images/about-us.jpg" alt="" />
         </Box>
-        <h3>We Have Free Templates for Everyone</h3>
+        <h3>We are Specialised in Grooming Men</h3>
         <p>
-          Our website templates are created with inspiration, checked for
-          quality and originality and meticulously sliced and coded. What’s
-          more, they’re absolutely free! You can do a lot with them. You can
-          modify them. You can use them to design websites for clients, so long
-          as you agree with the{" "}
+          Our barbershop is one of the first few brands in town to offer an
+          exclusive grooming experience for men, from shaving to haircuts,
+          massages and ear-cleaning services. This place aims to evoke a sence
+          of nostalgia in men. This is where men would gather to discuss
+          everything from business to sports to current affairs, while enjoying
+          the pleasures of professional men grooming service.
         </p>
-        <h3>We Have More Templates for You</h3>
+        <h3>It's not an haircut. It's an experience.</h3>
       </Container>
     </div>
   );
